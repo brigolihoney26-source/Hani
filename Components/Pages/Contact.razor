@@ -1,0 +1,89 @@
+@page "/contact"
+
+<PageTitle>Contact</PageTitle>
+
+<div class="page-section">
+    <h1>Contact</h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>
+                    <a href="mailto:brigolihoney26@gmail.com">brigolihoney26@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>
+                    <a href="tel:+639263403422">+63 926 340 3422</a>
+                </p>
+            </div>
+        </div>
+        <div class="contact-message">
+            <p>Feel free to reach out to me for any inquiries, collaborations, or opportunities. I'm always happy to connect and discuss new projects!</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .page-section {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .page-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color:#4f6f3e;
+        text-align: center;
+    }
+
+    .contact-container {
+        background-color: #f5f1e8;
+        padding: 2rem;
+        border-radius: 8px;
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-item h3 {
+        margin: 0 0 0.5rem 0;
+        color:#4f6f3e;
+        font-size: 1.2rem;
+    }
+
+    .contact-item p {
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    .contact-item a {
+        color: #4f6f3e;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease;
+    }
+
+    .contact-item a:hover {
+        border-bottom-color: #4f6f3e;
+    }
+
+    .contact-message {
+        text-align: center;
+        font-size: 1rem;
+        color: #4f6f3e;
+        line-height: 1.6;
+    }
+
+     (min-width: 768px) {
+        .contact-info {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+</style>
